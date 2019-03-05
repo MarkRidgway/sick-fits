@@ -8,7 +8,7 @@ import PriceTag from './styles/PriceTag';
 
 class Item extends Component {
   static propTypes = {
-    items: PropTypes.object.isRequired
+    item: PropTypes.object.isRequired
   }
 
   render() {
